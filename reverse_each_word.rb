@@ -4,8 +4,5 @@ def reverse_each_word(phrase)
   new_array.each do |word|
     blah.push(word.reverse)
   end 
-  p new_array
-  p blah
+  blah
 end 
-
-reverse_each_word("Hello there, and how are you?")
