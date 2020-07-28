@@ -3,7 +3,7 @@ def reverse_each_word(phrase)
   new_word = []
   new_array.push(phrase.split(/ /)) 
   new_array.collect do |word|
-    word.reverse
+    word.to_a.reverse
   end 
   p new_array
   p new_word
