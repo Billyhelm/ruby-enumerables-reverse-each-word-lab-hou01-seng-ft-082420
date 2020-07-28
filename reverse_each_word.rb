@@ -1,9 +1,11 @@
 def reverse_each_word(phrase)
   new_array = phrase.split(/ /)
-  new_array.collect do |word|
-    word.reverse 
+  blah = []
+  new_array.each do |word|
+    blah.push(word.reverse)
   end 
   p new_array
+  p blah
 end 
 
 reverse_each_word("Hello there, and how are you?")
